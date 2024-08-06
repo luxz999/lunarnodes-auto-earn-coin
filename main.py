@@ -1,7 +1,7 @@
 import requests , time
 
 while True:
-    cookie = 's%3AoB4XDyXSx541eo1Uh2ROz_YXMslk9eWs.IRa%2BU%2BCkeca2FRqbhgM46okgQjswFA3T5GxMGB%2FLmNo'
+    cookie = '_'
 
     a = requests.get('https://dash.lunarnodes.xyz/a/earn', cookies={'connect.sid': cookie})
     try:
